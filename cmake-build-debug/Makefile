@@ -122,6 +122,87 @@ Tetris/fast:
 	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/build
 .PHONY : Tetris/fast
 
+Board.obj: Board.cpp.obj
+
+.PHONY : Board.obj
+
+# target to build an object file
+Board.cpp.obj:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/Board.cpp.obj
+.PHONY : Board.cpp.obj
+
+Board.i: Board.cpp.i
+
+.PHONY : Board.i
+
+# target to preprocess a source file
+Board.cpp.i:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/Board.cpp.i
+.PHONY : Board.cpp.i
+
+Board.s: Board.cpp.s
+
+.PHONY : Board.s
+
+# target to generate assembly for a file
+Board.cpp.s:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/Board.cpp.s
+.PHONY : Board.cpp.s
+
+BoardView.obj: BoardView.cpp.obj
+
+.PHONY : BoardView.obj
+
+# target to build an object file
+BoardView.cpp.obj:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/BoardView.cpp.obj
+.PHONY : BoardView.cpp.obj
+
+BoardView.i: BoardView.cpp.i
+
+.PHONY : BoardView.i
+
+# target to preprocess a source file
+BoardView.cpp.i:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/BoardView.cpp.i
+.PHONY : BoardView.cpp.i
+
+BoardView.s: BoardView.cpp.s
+
+.PHONY : BoardView.s
+
+# target to generate assembly for a file
+BoardView.cpp.s:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/BoardView.cpp.s
+.PHONY : BoardView.cpp.s
+
+Figures.obj: Figures.cpp.obj
+
+.PHONY : Figures.obj
+
+# target to build an object file
+Figures.cpp.obj:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/Figures.cpp.obj
+.PHONY : Figures.cpp.obj
+
+Figures.i: Figures.cpp.i
+
+.PHONY : Figures.i
+
+# target to preprocess a source file
+Figures.cpp.i:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/Figures.cpp.i
+.PHONY : Figures.cpp.i
+
+Figures.s: Figures.cpp.s
+
+.PHONY : Figures.s
+
+# target to generate assembly for a file
+Figures.cpp.s:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/Figures.cpp.s
+.PHONY : Figures.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +239,15 @@ help:
 	@echo ... edit_cache
 	@echo ... Tetris
 	@echo ... rebuild_cache
+	@echo ... Board.obj
+	@echo ... Board.i
+	@echo ... Board.s
+	@echo ... BoardView.obj
+	@echo ... BoardView.i
+	@echo ... BoardView.s
+	@echo ... Figures.obj
+	@echo ... Figures.i
+	@echo ... Figures.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

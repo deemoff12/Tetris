@@ -5,7 +5,7 @@
 		<Option title="Tetris"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\Pobrane\;CMake Files\..\..\..\Pobrane\SFML-2.5.1\;CMake Files\..\..\..\Pobrane\SFML-2.5.1\lib\;CMake Files\..\..\..\Pobrane\SFML-2.5.1\lib\cmake\;CMake Files\..\..\..\Pobrane\SFML-2.5.1\lib\cmake\SFML\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="D:/Studia/Programowanie Obiektowe/Tetris/cmake-build-debug"/>
@@ -34,6 +34,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/Pobrane/SFML-2.5.1/include"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -55,6 +56,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/Pobrane/SFML-2.5.1/include"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -80,11 +82,47 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/Board.cpp">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/Board.h">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/BoardView.cpp">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/BoardView.h">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/Figures.cpp">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/Figures.h">
+			<Option target="Tetris"/>
+		</Unit>
 		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/main.cpp">
 			<Option target="Tetris"/>
 		</Unit>
 		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/../../../Pobrane/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Pobrane\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/../../../Pobrane/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Pobrane\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/../../../Pobrane/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Pobrane\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/../../../Pobrane/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Pobrane\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/../../../Pobrane/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Pobrane\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/../../../Pobrane/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Pobrane\SFML-2.5.1\lib\cmake\SFML\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
