@@ -7,9 +7,13 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 class Board {
+    int col = 10;
+    int row = 20;
 
 public:
     Board();
+    int getCol() { return col; }
+    int getRow() { return row; }
 };
 
 #endif //TETRIS_BOARD_H

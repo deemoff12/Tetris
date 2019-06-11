@@ -100,6 +100,12 @@
 		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/Figures.h">
 			<Option target="Tetris"/>
 		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/FiguresView.cpp">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/FiguresView.h">
+			<Option target="Tetris"/>
+		</Unit>
 		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/main.cpp">
 			<Option target="Tetris"/>
 		</Unit>

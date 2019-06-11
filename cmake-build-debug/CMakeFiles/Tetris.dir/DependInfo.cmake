@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Studia/Programowanie Obiektowe/Tetris/Board.cpp" "D:/Studia/Programowanie Obiektowe/Tetris/cmake-build-debug/CMakeFiles/Tetris.dir/Board.cpp.obj"
   "D:/Studia/Programowanie Obiektowe/Tetris/BoardView.cpp" "D:/Studia/Programowanie Obiektowe/Tetris/cmake-build-debug/CMakeFiles/Tetris.dir/BoardView.cpp.obj"
   "D:/Studia/Programowanie Obiektowe/Tetris/Figures.cpp" "D:/Studia/Programowanie Obiektowe/Tetris/cmake-build-debug/CMakeFiles/Tetris.dir/Figures.cpp.obj"
+  "D:/Studia/Programowanie Obiektowe/Tetris/FiguresView.cpp" "D:/Studia/Programowanie Obiektowe/Tetris/cmake-build-debug/CMakeFiles/Tetris.dir/FiguresView.cpp.obj"
   "D:/Studia/Programowanie Obiektowe/Tetris/main.cpp" "D:/Studia/Programowanie Obiektowe/Tetris/cmake-build-debug/CMakeFiles/Tetris.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
