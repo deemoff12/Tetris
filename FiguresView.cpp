@@ -13,25 +13,29 @@ FiguresView::FiguresView(sf::RenderWindow& win, Figures& figure, Board board)
     else std::cout << "Nie wczytano figury" << std::endl;
 
     sf::Sprite s(figuresView);
-    s.setTextureRect(sf::IntRect(0, 0, 18, 18));
 }
 void FiguresView::draw(sf::RenderWindow& win)
 {
-    for (int i = 0; i<board.getRow(); i++) {
-        for (int j = 0; j<board.getCol(); j++) {
-            if (figure.getFiguresTab(i, j)==0) continue;
-            sprite.setTextureRect(sf::IntRect(figure.getFiguresTab(i, j)*18, 0, 18, 18));
-            sprite.setPosition(j*18, i*18);
-            sprite.move(28, 31); //offset
-            window.draw(sprite);
-        }
+//    figure.setPunktShape(3);
+//    for (int i = 0; i<board.getRow(); i++) {
+//        for (int j = 0; j<board.getCol(); j++) {
+//            if (figure.getFiguresTab(i, j)==0) continue;
+//            sprite.setTextureRect(sf::IntRect(2*18, 0, 18, 18));
+//            sprite.setPosition(figure.getPunkt(i).x*18, figure.getPunkt(i).y*18);
+//            sprite.move(28, 31); //offset
+//        }
 
-        for (int i = 0; i<4; i++) {
-            sprite.setTextureRect(sf::IntRect(2*18, 0, 18, 18));
-            sprite.setPosition(figure.getPunkt(i).x*18, figure.getPunkt(i).y*18);
-            sprite.move(28, 31); //offset
-            window.draw(sprite);
-        }
-    }
+    for (int y = 0; y<4; y++)
+        for (int x = 0; x<4; x++)
+            if (figure.getFiguresTab(x, y)) {
+                sprite.setTextureRect(sf::IntRect(2*18, 0, 18, 18));
+                sprite.setPosition(sf::Vector2f((board.getCol()/2+x)*18, (y)*18));
+                sprite.move(28, 31);
+                window.draw(sprite);
+            }
+//        window.draw(sprite);
+
+
+//    }
 
 }

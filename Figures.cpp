@@ -9,7 +9,7 @@ Figures::Figures()
 }
 void Figures::rotate()
 {
-    Punkt rotate = pkt[1]; // puntk o indeksie 1 odpowiada za cetrum rotacji
+    Punkt rotate = pkt[1]; // puntk o indeksie 1 odpowiada za centrum rotacji
 
     for (int i = 0; i<4; i++) {
         int x = pkt[i].y-rotate.y;
@@ -19,4 +19,3 @@ void Figures::rotate()
     }
 }
 
-int tab[3][3]{{1, 2, 3}, {4, 5, 6}};
