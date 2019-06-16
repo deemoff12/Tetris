@@ -7,13 +7,15 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 class Board {
-    int col = 10;
-    int row = 20;
+    static const int col = 10;
+    static const int row = 20;
+    int tab[row][col] = {0}; // Tablica służąca do przchowywania wartości elementów które się zatrzymały
 
 public:
     Board();
     int getCol() { return col; }
     int getRow() { return row; }
+    int getTab(int i, int j) { return tab[i][j]; }
 };
 
 #endif //TETRIS_BOARD_H

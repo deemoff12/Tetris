@@ -18,4 +18,26 @@ void Figures::rotate()
         pkt[i].y = rotate.y+y;
     }
 }
+void Figures::setKind()
+{
+    kind = rand()%7;
+}
+void Figures::move(int dir)
+{
+    for (int i = 0; i<4; ++i) {
+        pkt[i].x += dir;
+    }
+}
+void Figures::fall()
+{
+    for (int i = 0; i<4; ++i) {
+        pkt[i].y += 1;
+    }
+}
+void Figures::setPunkt(int i)
+{
+    pkt[i].x = figuresTab[kind][i]%2;
+    pkt[i].y = figuresTab[kind][i]/2;
+}
+
 
