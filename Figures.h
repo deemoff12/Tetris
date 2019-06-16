@@ -20,7 +20,7 @@ class Figures {
                          {2, 3, 4, 5}};
 
 public:
-    Figures() = default;
+    Figures();
     void rotate();
     void move(int dir);
     void fall();

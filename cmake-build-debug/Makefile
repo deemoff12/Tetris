@@ -230,6 +230,141 @@ FiguresView.cpp.s:
 	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/FiguresView.cpp.s
 .PHONY : FiguresView.cpp.s
 
+GameManager.obj: GameManager.cpp.obj
+
+.PHONY : GameManager.obj
+
+# target to build an object file
+GameManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/GameManager.cpp.obj
+.PHONY : GameManager.cpp.obj
+
+GameManager.i: GameManager.cpp.i
+
+.PHONY : GameManager.i
+
+# target to preprocess a source file
+GameManager.cpp.i:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/GameManager.cpp.i
+.PHONY : GameManager.cpp.i
+
+GameManager.s: GameManager.cpp.s
+
+.PHONY : GameManager.s
+
+# target to generate assembly for a file
+GameManager.cpp.s:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/GameManager.cpp.s
+.PHONY : GameManager.cpp.s
+
+IntroController.obj: IntroController.cpp.obj
+
+.PHONY : IntroController.obj
+
+# target to build an object file
+IntroController.cpp.obj:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/IntroController.cpp.obj
+.PHONY : IntroController.cpp.obj
+
+IntroController.i: IntroController.cpp.i
+
+.PHONY : IntroController.i
+
+# target to preprocess a source file
+IntroController.cpp.i:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/IntroController.cpp.i
+.PHONY : IntroController.cpp.i
+
+IntroController.s: IntroController.cpp.s
+
+.PHONY : IntroController.s
+
+# target to generate assembly for a file
+IntroController.cpp.s:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/IntroController.cpp.s
+.PHONY : IntroController.cpp.s
+
+IntroView.obj: IntroView.cpp.obj
+
+.PHONY : IntroView.obj
+
+# target to build an object file
+IntroView.cpp.obj:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/IntroView.cpp.obj
+.PHONY : IntroView.cpp.obj
+
+IntroView.i: IntroView.cpp.i
+
+.PHONY : IntroView.i
+
+# target to preprocess a source file
+IntroView.cpp.i:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/IntroView.cpp.i
+.PHONY : IntroView.cpp.i
+
+IntroView.s: IntroView.cpp.s
+
+.PHONY : IntroView.s
+
+# target to generate assembly for a file
+IntroView.cpp.s:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/IntroView.cpp.s
+.PHONY : IntroView.cpp.s
+
+ScoreController.obj: ScoreController.cpp.obj
+
+.PHONY : ScoreController.obj
+
+# target to build an object file
+ScoreController.cpp.obj:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/ScoreController.cpp.obj
+.PHONY : ScoreController.cpp.obj
+
+ScoreController.i: ScoreController.cpp.i
+
+.PHONY : ScoreController.i
+
+# target to preprocess a source file
+ScoreController.cpp.i:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/ScoreController.cpp.i
+.PHONY : ScoreController.cpp.i
+
+ScoreController.s: ScoreController.cpp.s
+
+.PHONY : ScoreController.s
+
+# target to generate assembly for a file
+ScoreController.cpp.s:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/ScoreController.cpp.s
+.PHONY : ScoreController.cpp.s
+
+ScoreView.obj: ScoreView.cpp.obj
+
+.PHONY : ScoreView.obj
+
+# target to build an object file
+ScoreView.cpp.obj:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/ScoreView.cpp.obj
+.PHONY : ScoreView.cpp.obj
+
+ScoreView.i: ScoreView.cpp.i
+
+.PHONY : ScoreView.i
+
+# target to preprocess a source file
+ScoreView.cpp.i:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/ScoreView.cpp.i
+.PHONY : ScoreView.cpp.i
+
+ScoreView.s: ScoreView.cpp.s
+
+.PHONY : ScoreView.s
+
+# target to generate assembly for a file
+ScoreView.cpp.s:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/ScoreView.cpp.s
+.PHONY : ScoreView.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -278,6 +413,21 @@ help:
 	@echo ... FiguresView.obj
 	@echo ... FiguresView.i
 	@echo ... FiguresView.s
+	@echo ... GameManager.obj
+	@echo ... GameManager.i
+	@echo ... GameManager.s
+	@echo ... IntroController.obj
+	@echo ... IntroController.i
+	@echo ... IntroController.s
+	@echo ... IntroView.obj
+	@echo ... IntroView.i
+	@echo ... IntroView.s
+	@echo ... ScoreController.obj
+	@echo ... ScoreController.i
+	@echo ... ScoreController.s
+	@echo ... ScoreView.obj
+	@echo ... ScoreView.i
+	@echo ... ScoreView.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -106,6 +106,36 @@
 		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/FiguresView.h">
 			<Option target="Tetris"/>
 		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/GameManager.cpp">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/GameManager.h">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/IntroController.cpp">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/IntroController.h">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/IntroView.cpp">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/IntroView.h">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/ScoreController.cpp">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/ScoreController.h">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/ScoreView.cpp">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/ScoreView.h">
+			<Option target="Tetris"/>
+		</Unit>
 		<Unit filename="D:/Studia/Programowanie Obiektowe/Tetris/main.cpp">
 			<Option target="Tetris"/>
 		</Unit>

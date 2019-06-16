@@ -126,13 +126,88 @@ CMakeFiles/Tetris.dir/FiguresView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tetris.dir/FiguresView.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Studia\Programowanie Obiektowe\Tetris\FiguresView.cpp" -o CMakeFiles\Tetris.dir\FiguresView.cpp.s
 
+CMakeFiles/Tetris.dir/GameManager.cpp.obj: CMakeFiles/Tetris.dir/flags.make
+CMakeFiles/Tetris.dir/GameManager.cpp.obj: CMakeFiles/Tetris.dir/includes_CXX.rsp
+CMakeFiles/Tetris.dir/GameManager.cpp.obj: ../GameManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Studia\Programowanie Obiektowe\Tetris\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Tetris.dir/GameManager.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Tetris.dir\GameManager.cpp.obj -c "D:\Studia\Programowanie Obiektowe\Tetris\GameManager.cpp"
+
+CMakeFiles/Tetris.dir/GameManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tetris.dir/GameManager.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Studia\Programowanie Obiektowe\Tetris\GameManager.cpp" > CMakeFiles\Tetris.dir\GameManager.cpp.i
+
+CMakeFiles/Tetris.dir/GameManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tetris.dir/GameManager.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Studia\Programowanie Obiektowe\Tetris\GameManager.cpp" -o CMakeFiles\Tetris.dir\GameManager.cpp.s
+
+CMakeFiles/Tetris.dir/IntroController.cpp.obj: CMakeFiles/Tetris.dir/flags.make
+CMakeFiles/Tetris.dir/IntroController.cpp.obj: CMakeFiles/Tetris.dir/includes_CXX.rsp
+CMakeFiles/Tetris.dir/IntroController.cpp.obj: ../IntroController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Studia\Programowanie Obiektowe\Tetris\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Tetris.dir/IntroController.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Tetris.dir\IntroController.cpp.obj -c "D:\Studia\Programowanie Obiektowe\Tetris\IntroController.cpp"
+
+CMakeFiles/Tetris.dir/IntroController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tetris.dir/IntroController.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Studia\Programowanie Obiektowe\Tetris\IntroController.cpp" > CMakeFiles\Tetris.dir\IntroController.cpp.i
+
+CMakeFiles/Tetris.dir/IntroController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tetris.dir/IntroController.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Studia\Programowanie Obiektowe\Tetris\IntroController.cpp" -o CMakeFiles\Tetris.dir\IntroController.cpp.s
+
+CMakeFiles/Tetris.dir/IntroView.cpp.obj: CMakeFiles/Tetris.dir/flags.make
+CMakeFiles/Tetris.dir/IntroView.cpp.obj: CMakeFiles/Tetris.dir/includes_CXX.rsp
+CMakeFiles/Tetris.dir/IntroView.cpp.obj: ../IntroView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Studia\Programowanie Obiektowe\Tetris\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Tetris.dir/IntroView.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Tetris.dir\IntroView.cpp.obj -c "D:\Studia\Programowanie Obiektowe\Tetris\IntroView.cpp"
+
+CMakeFiles/Tetris.dir/IntroView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tetris.dir/IntroView.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Studia\Programowanie Obiektowe\Tetris\IntroView.cpp" > CMakeFiles\Tetris.dir\IntroView.cpp.i
+
+CMakeFiles/Tetris.dir/IntroView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tetris.dir/IntroView.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Studia\Programowanie Obiektowe\Tetris\IntroView.cpp" -o CMakeFiles\Tetris.dir\IntroView.cpp.s
+
+CMakeFiles/Tetris.dir/ScoreView.cpp.obj: CMakeFiles/Tetris.dir/flags.make
+CMakeFiles/Tetris.dir/ScoreView.cpp.obj: CMakeFiles/Tetris.dir/includes_CXX.rsp
+CMakeFiles/Tetris.dir/ScoreView.cpp.obj: ../ScoreView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Studia\Programowanie Obiektowe\Tetris\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Tetris.dir/ScoreView.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Tetris.dir\ScoreView.cpp.obj -c "D:\Studia\Programowanie Obiektowe\Tetris\ScoreView.cpp"
+
+CMakeFiles/Tetris.dir/ScoreView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tetris.dir/ScoreView.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Studia\Programowanie Obiektowe\Tetris\ScoreView.cpp" > CMakeFiles\Tetris.dir\ScoreView.cpp.i
+
+CMakeFiles/Tetris.dir/ScoreView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tetris.dir/ScoreView.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Studia\Programowanie Obiektowe\Tetris\ScoreView.cpp" -o CMakeFiles\Tetris.dir\ScoreView.cpp.s
+
+CMakeFiles/Tetris.dir/ScoreController.cpp.obj: CMakeFiles/Tetris.dir/flags.make
+CMakeFiles/Tetris.dir/ScoreController.cpp.obj: CMakeFiles/Tetris.dir/includes_CXX.rsp
+CMakeFiles/Tetris.dir/ScoreController.cpp.obj: ../ScoreController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Studia\Programowanie Obiektowe\Tetris\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Tetris.dir/ScoreController.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Tetris.dir\ScoreController.cpp.obj -c "D:\Studia\Programowanie Obiektowe\Tetris\ScoreController.cpp"
+
+CMakeFiles/Tetris.dir/ScoreController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tetris.dir/ScoreController.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Studia\Programowanie Obiektowe\Tetris\ScoreController.cpp" > CMakeFiles\Tetris.dir\ScoreController.cpp.i
+
+CMakeFiles/Tetris.dir/ScoreController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tetris.dir/ScoreController.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Studia\Programowanie Obiektowe\Tetris\ScoreController.cpp" -o CMakeFiles\Tetris.dir\ScoreController.cpp.s
+
 # Object files for target Tetris
 Tetris_OBJECTS = \
 "CMakeFiles/Tetris.dir/main.cpp.obj" \
 "CMakeFiles/Tetris.dir/Board.cpp.obj" \
 "CMakeFiles/Tetris.dir/Figures.cpp.obj" \
 "CMakeFiles/Tetris.dir/BoardView.cpp.obj" \
-"CMakeFiles/Tetris.dir/FiguresView.cpp.obj"
+"CMakeFiles/Tetris.dir/FiguresView.cpp.obj" \
+"CMakeFiles/Tetris.dir/GameManager.cpp.obj" \
+"CMakeFiles/Tetris.dir/IntroController.cpp.obj" \
+"CMakeFiles/Tetris.dir/IntroView.cpp.obj" \
+"CMakeFiles/Tetris.dir/ScoreView.cpp.obj" \
+"CMakeFiles/Tetris.dir/ScoreController.cpp.obj"
 
 # External object files for target Tetris
 Tetris_EXTERNAL_OBJECTS =
@@ -142,6 +217,11 @@ Tetris.exe: CMakeFiles/Tetris.dir/Board.cpp.obj
 Tetris.exe: CMakeFiles/Tetris.dir/Figures.cpp.obj
 Tetris.exe: CMakeFiles/Tetris.dir/BoardView.cpp.obj
 Tetris.exe: CMakeFiles/Tetris.dir/FiguresView.cpp.obj
+Tetris.exe: CMakeFiles/Tetris.dir/GameManager.cpp.obj
+Tetris.exe: CMakeFiles/Tetris.dir/IntroController.cpp.obj
+Tetris.exe: CMakeFiles/Tetris.dir/IntroView.cpp.obj
+Tetris.exe: CMakeFiles/Tetris.dir/ScoreView.cpp.obj
+Tetris.exe: CMakeFiles/Tetris.dir/ScoreController.cpp.obj
 Tetris.exe: CMakeFiles/Tetris.dir/build.make
 Tetris.exe: D:/Pobrane/SFML-2.5.1/lib/libsfml-graphics-d.a
 Tetris.exe: D:/Pobrane/SFML-2.5.1/lib/libsfml-window-d.a
@@ -149,7 +229,7 @@ Tetris.exe: D:/Pobrane/SFML-2.5.1/lib/libsfml-system-d.a
 Tetris.exe: CMakeFiles/Tetris.dir/linklibs.rsp
 Tetris.exe: CMakeFiles/Tetris.dir/objects1.rsp
 Tetris.exe: CMakeFiles/Tetris.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Studia\Programowanie Obiektowe\Tetris\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Tetris.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Studia\Programowanie Obiektowe\Tetris\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Tetris.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Tetris.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
