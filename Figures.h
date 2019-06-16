@@ -14,13 +14,13 @@ struct Punkt {
 class Figures {
     Board board;
     int kind;//Zmienna odpowiadająca za kształt figury i jej kolor
-    Punkt pkt[4], nxt[4]; // Figura będzię się składać z 4 segmentów. Tablica pkt jest kontenerem ich pozycji.
+    Punkt pkt[4], tmp[4]; // Figura będzię się składać z 4 segmentów. Tablica pkt jest kontenerem ich pozycji.
     //    Tablica przechowująca kształty figur. 7 rodzajów figur
     int figuresTab[7][4]{{1, 3, 5, 7}, {2, 4, 5, 7}, {3, 5, 4, 6}, {3, 5, 4, 7}, {2, 3, 5, 7}, {3, 5, 7, 6},
                          {2, 3, 4, 5}};
 
 public:
-    Figures();
+    Figures() = default;
     void rotate();
     void move(int dir);
     void fall();
@@ -28,6 +28,8 @@ public:
     void setKind();
     int getKind() { return kind; }
     void setPunkt(int i);
+    bool isCollision();
+
 };
 
 #endif //TETRIS_FIGURES_H

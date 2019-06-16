@@ -7,7 +7,7 @@ int main()
 {
     srand(time(NULL));
     sf::RenderWindow window(sf::VideoMode(320, 480), "Tetris");
-//    window.setFramerateLimit(4);
+    window.setFramerateLimit(4);
     Board board;
     BoardView board_view(window);
     Figures figures;
@@ -27,6 +27,7 @@ int main()
             }
         }
         figures.fall();
+        std::cout << figures.getPunkt(0).x << std::endl;
         window.clear(sf::Color::White);
         board_view.draw(window);
         figures_view.draw(window);

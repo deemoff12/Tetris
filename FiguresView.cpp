@@ -14,6 +14,9 @@ FiguresView::FiguresView(sf::RenderWindow& win, Figures& figure, Board board)
 
     sf::Sprite s(figuresView);
     figure.setKind();
+    for (int i = 0; i<4; ++i) {
+        figure.setPunkt(i);
+    }
 }
 void FiguresView::draw(sf::RenderWindow& win)
 {
@@ -26,8 +29,9 @@ void FiguresView::draw(sf::RenderWindow& win)
             window.draw(sprite);
         }
     }
+
     for (int i = 0; i<4; ++i) {
-        figure.setPunkt(i);
+
         sprite.setTextureRect(sf::IntRect(figure.getKind()*18, 0, 18, 18));
         sprite.setPosition(figure.getPunkt(i).x*18, figure.getPunkt(i).y*18);
         sprite.move(28, 31);
