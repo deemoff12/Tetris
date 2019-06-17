@@ -16,6 +16,8 @@ public:
     int getCol() { return col; }
     int getRow() { return row; }
     int getTab(int i, int j) { return tab[i][j]; }
+    void setFieldsColor(int x, int y, int color) { tab[y][x] = color; }
+    void checkLines();
 };
 
 #endif //TETRIS_BOARD_H

@@ -682,12 +682,6 @@ SFML/Graphics.hpp
 iostream
 -
 
-D:/Studia/Programowanie Obiektowe/Tetris/BoardView.h
-Board.h
-D:/Studia/Programowanie Obiektowe/Tetris/Board.h
-SFML/Graphics.hpp
--
-
 D:/Studia/Programowanie Obiektowe/Tetris/Figures.cpp
 Figures.h
 D:/Studia/Programowanie Obiektowe/Tetris/Figures.h
@@ -699,30 +693,4 @@ iostream
 -
 Board.h
 D:/Studia/Programowanie Obiektowe/Tetris/Board.h
-
-D:/Studia/Programowanie Obiektowe/Tetris/FiguresView.cpp
-FiguresView.h
-D:/Studia/Programowanie Obiektowe/Tetris/FiguresView.h
-
-D:/Studia/Programowanie Obiektowe/Tetris/FiguresView.h
-SFML/Graphics.hpp
--
-iostream
--
-Figures.h
-D:/Studia/Programowanie Obiektowe/Tetris/Figures.h
-Board.h
-D:/Studia/Programowanie Obiektowe/Tetris/Board.h
-
-D:/Studia/Programowanie Obiektowe/Tetris/main.cpp
-iostream
--
-SFML/Graphics.hpp
--
-BoardView.h
-D:/Studia/Programowanie Obiektowe/Tetris/BoardView.h
-Figures.h
-D:/Studia/Programowanie Obiektowe/Tetris/Figures.h
-FiguresView.h
-D:/Studia/Programowanie Obiektowe/Tetris/FiguresView.h
 

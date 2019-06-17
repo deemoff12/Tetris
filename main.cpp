@@ -9,8 +9,8 @@ int main()
     sf::RenderWindow window(sf::VideoMode(320, 480), "Tetris");
     window.setFramerateLimit(4);
     Board board;
-    BoardView board_view(window);
-    Figures figures;
+    BoardView board_view(window, board);
+    Figures figures(board);
     FiguresView figures_view(window, figures, board);
 
     while (window.isOpen()) {
@@ -21,14 +21,15 @@ int main()
                 if (event.key.code==sf::Keyboard::Left) figures.move(-1);
                 if (event.key.code==sf::Keyboard::Right) figures.move(1);
                 if (event.key.code==sf::Keyboard::Up) figures.rotate();
+                if (event.key.code==sf::Keyboard::Down) figures.step();
             }
             if (event.type==sf::Event::Closed) {
                 window.close();
             }
         }
-        figures.fall();
-        std::cout << figures.getPunkt(0).x << std::endl;
-        window.clear(sf::Color::White);
+//        figures.step();
+        std::cout << figures.getPunkt(3).x << std::endl;
+//        window.clear(sf::Color::White);
         board_view.draw(window);
         figures_view.draw(window);
         window.display();
