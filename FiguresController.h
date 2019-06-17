@@ -15,7 +15,7 @@ class FiguresController {
     BoardView& bView;
 public:
     FiguresController(sf::RenderWindow& win, Figures& fig, FiguresView& view, BoardView& bView);
-    bool isFinished() { return figures.isFinished(); }
+    bool isFinished() { return finished; }
     void handleEvent(sf::Event& event);
     void draw(sf::RenderWindow& win);
 };

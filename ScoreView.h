@@ -12,7 +12,7 @@ private:
     sf::RectangleShape endGame;
     sf::Text endGameTxt;
     sf::Font font;
-
+    sf::Text sad;
 public:
     ScoreView();
     void draw(sf::RenderWindow& win);

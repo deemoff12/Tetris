@@ -14,7 +14,7 @@ void IntroController::handleEvent(sf::Event& event)
             int x = event.mouseButton.x;
             int y = event.mouseButton.y;
 
-            if (x>=300 && x<=450 && y>=500 && y<=580) // PLAY
+            if (x>=85 && x<=200 && y>=310 && y<=390) // PLAY
             {
 
                 finished = true;

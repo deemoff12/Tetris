@@ -7,9 +7,9 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 class Board {
-    static const int col = 10;
-    static const int row = 20;
-    int tab[row][col] = {0}; // Tablica służąca do przchowywania wartości elementów które się zatrzymały
+    int col = 10;
+    int row = 20;
+    int tab[20][10] = {0}; // Tablica służąca do przchowywania wartości elementów które się zatrzymały
 
 public:
     Board();

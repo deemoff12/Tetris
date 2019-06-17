@@ -10,11 +10,10 @@
 class ScoreController {
     bool finished = false;
     ScoreView& view;
-    IntroController& introController;
     sf::RenderWindow& window;
     int x, y;
 public:
-    ScoreController(ScoreView& v, IntroController& ic, sf::RenderWindow& win);
+    ScoreController(ScoreView& v, sf::RenderWindow& win);
     void handleEvent(sf::Event& event);
 
     // no need to change this

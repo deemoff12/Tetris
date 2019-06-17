@@ -3,8 +3,8 @@
 //
 
 #include "ScoreController.h"
-ScoreController::ScoreController(ScoreView& v, IntroController& ic, sf::RenderWindow& win)
-        :view(v), introController(ic), window(win) { }
+ScoreController::ScoreController(ScoreView& v, sf::RenderWindow& win)
+        :view(v), window(win) { }
 
 void ScoreController::handleEvent(sf::Event& event)
 {
@@ -16,7 +16,7 @@ void ScoreController::handleEvent(sf::Event& event)
             x = event.mouseButton.x;
             y = event.mouseButton.y;
 
-            if (x>=300 && x<=650 && y>=450 && y<=600) {
+            if (x>=85 && x<=235 && y>=310 && y<=390) {
                 window.close();
             }
         }

@@ -41,10 +41,7 @@ void Figures::move(int dir)
     }
     isCollision();
 
-//    if (!isCollision())
-//        for (int j = 0; j<4; ++j) {
-//            pkt[j] = tmp[j];
-//        }
+
 }
 void Figures::fall()
 {
@@ -75,16 +72,10 @@ void Figures::isCollision()
         }
     }
     for (int j = 0; j<4; ++j) {
-        if (pkt[j].y>=board.getRow()) {
+        if (pkt[j].y>=board.getRow() || board.getTab(tmp[j].x, tmp[j].y+1)!=0) {
             for (int i = 0; i<4; ++i) {
                 board.setFieldsColor(tmp[i].y, tmp[i].x, color);
-//                board.setFieldsColor(tmp[i].y+1, tmp[i].x-10, 0);
             }
-            std::cout << "ivsytbty";
-            std::cout << color << std::endl;
-
-            std::cout << "X: " << pkt[j].x << "Y: " << pkt[j].y << std::endl;
-
             if (j>2) {
                 setKind();
                 setColor();

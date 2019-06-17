@@ -22,12 +22,13 @@ BoardView::BoardView(sf::RenderWindow& win, Board& board)
 void BoardView::draw(sf::RenderWindow& win)
 {
     win.draw(spriteBG);
-    for (int i = 0; i<board.getRow(); ++i) {
-        for (int j = 0; j<=board.getCol(); ++j) {
+    for (int i = 0; i<board.getCol(); ++i) {
+        for (int j = 0; j<=board.getRow(); ++j) {
 //            if (board.getTab(j, i)!=0) std::cout <<"board ("<<j<<","<<i<<")"<< board.getTab(j, i) << std::endl;
             if (board.getTab(j, i)==0) continue;
             sprite.setTextureRect(sf::IntRect(board.getTab(j, i)*18, 0, 18, 18));
-            sprite.setPosition((j-1)*18, (i+10)*18);
+
+            sprite.setPosition(j*18, i*18);
             sprite.move(28, 31);
 //            std::cout<<"wykonano" << std::endl;
             window.draw(sprite);

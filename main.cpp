@@ -6,6 +6,9 @@
 #include "FiguresController.h"
 #include "IntroView.h"
 #include "IntroController.h"
+#include "ScoreView.h"
+#include "ScoreController.h"
+#include "GameManager.h"
 int main()
 {
     srand(time(NULL));
@@ -18,25 +21,23 @@ int main()
     FiguresController figures_controller(window, figures, figures_view, board_view);
     IntroView intro_view(window);
     IntroController intro_controller(intro_view);
+    ScoreView score_view;
+    ScoreController score_controller(score_view, window);
+    GameManager gm(intro_controller, figures_controller, score_controller);
 
     window.setFramerateLimit(4);
     while (window.isOpen()) {
         sf::Event event;
         while (window.pollEvent(event)) {
-            if (event.type==sf::Event::KeyPressed) {
-                if (event.key.code==sf::Keyboard::Left) figures.move(-1);
-                if (event.key.code==sf::Keyboard::Right) figures.move(1);
-                if (event.key.code==sf::Keyboard::Up) figures.rotate();
-                if (event.key.code==sf::Keyboard::Down) figures.step();
-            }
+
+            gm.handleEvent(event);
+
             if (event.type==sf::Event::Closed) {
                 window.close();
             }
         }
-        figures.step();
-//        std::cout << figures.getPunkt(3).x << std::endl;
-        board_view.draw(window);
-        figures_view.draw(window);
+        if (gm.getGameState()==2) figures.step();
+        gm.draw(window);
         window.display();
     }
 
