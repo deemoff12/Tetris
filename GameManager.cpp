@@ -4,8 +4,8 @@
 
 #include "GameManager.h"
 
-GameManager::GameManager(IntroController& ic, ScoreController& sc)
-        :introController(ic), scoreController(sc)
+GameManager::GameManager(IntroController& ic, FiguresController& fc, ScoreController& sc)
+        :introController(ic), figuresController(fc), scoreController(sc)
 {
 
 //    state = INTRO;
@@ -19,10 +19,10 @@ void GameManager::updateState()
         if (introController.isFinished())
             state = 2;//GAME;
         break;
-//    case 2://GAME:
-//        if (snakeController.isFinished())
-//            state = 3;//SCORE;
-//        break;
+    case 2://GAME:
+        if (figuresController.isFinished())
+            state = 3;//SCORE;
+        break;
     case 3://SCORE:
         if (scoreController.isFinished()) {
             scoreController.changeState();
@@ -38,9 +38,9 @@ void GameManager::handleEvent(sf::Event& event)
     case 1://INTRO:
         introController.handleEvent(event);
         break;
-//    case 2://GAME:
-//        snakeController.handleEvent(event);
-//        break;
+    case 2://GAME:
+        figuresController.handleEvent(event);
+        break;
     case 3://SCORE:
         scoreController.handleEvent(event);
         break;
@@ -56,11 +56,10 @@ void GameManager::draw(sf::RenderWindow& win)
         introController.draw(win);
 
         break;
-//    case 2://GAME:
-//        snakeController.draw(win);
-//        break;
+    case 2://GAME:
+        figuresController.draw(win);
+        break;
     case 3://SCORE:
-        scoreController.changeState();
         scoreController.draw(win);
         break;
     }

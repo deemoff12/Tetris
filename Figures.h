@@ -13,6 +13,7 @@ struct Punkt {
 
 class Figures {
     Board& board;
+    bool finished = false;
     int kind;//Zmienna odpowiadająca za kształt figury i jej kolor
     int color;
     Punkt pkt[4], tmp[4]; // Figura będzię się składać z 4 segmentów. Tablica pkt jest kontenerem ich pozycji.
@@ -22,6 +23,7 @@ class Figures {
 
 public:
     Figures(Board& board);
+    bool isFinished() { return finished; }
     void rotate();
     void move(int dir);
     void fall();

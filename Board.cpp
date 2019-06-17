@@ -5,7 +5,12 @@
 #include "Board.h"
 Board::Board()
 {
-    int board[20][10] = {0}; // Rozmiar planszy na sztywno ze względu na dopasowaną grafikę
+//    for (int i = 0; i<row; ++i) {
+//        for (int j = 0; j<col; ++j) {
+//            tab[row][col]=0;
+//        }
+//    }
+
 }
 void Board::checkLines()
 {

@@ -7,19 +7,17 @@
 
 #include "IntroController.h"
 #include "ScoreController.h"
+#include "FiguresController.h"
 class GameManager {
     IntroController& introController;
+    FiguresController& figuresController;
     ScoreController& scoreController;
-
-//    enum GameState {
-//      INTRO, GAME, SCORE
-//    } state;
 
     int state;
 
     void updateState();
 public:
-    GameManager(IntroController& ic, ScoreController& sc);
+    GameManager(IntroController& ic, FiguresController& fc, ScoreController& sc);
     int getGameState() { return state; }
     void draw(sf::RenderWindow& win);
 

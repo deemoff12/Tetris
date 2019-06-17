@@ -6,7 +6,11 @@
 Figures::Figures(Board& board)
         :board(board)
 {
-
+    for (int i = 0; i<board.getRow(); ++i) {
+        for (int j = 0; j<board.getCol(); ++j) {
+            board.setFieldsColor(j, i, 0);
+        }
+    }
 }
 void Figures::rotate()
 {
@@ -27,7 +31,7 @@ void Figures::setKind()
 }
 void Figures::setColor()
 {
-    color = rand()%7;
+    color = rand()%7+1;
 }
 void Figures::move(int dir)
 {
@@ -66,14 +70,27 @@ void Figures::setPunkt()
 void Figures::isCollision()
 {
     for (int i = 0; i<4; ++i) {
-        if (pkt[i].x>=board.getCol() || pkt[i].x<+0) {
+        if (pkt[i].x>=board.getCol() || pkt[i].x<0) {
             pkt[i] = tmp[i];
         }
-        if (pkt[i].y>=board.getRow()) {
-            board.setFieldsColor(pkt[i].x, pkt[i].y, color);
-            setKind();
-            setColor();
-            setPunkt();
+    }
+    for (int j = 0; j<4; ++j) {
+        if (pkt[j].y>=board.getRow()) {
+            for (int i = 0; i<4; ++i) {
+                board.setFieldsColor(tmp[i].y, tmp[i].x, color);
+//                board.setFieldsColor(tmp[i].y+1, tmp[i].x-10, 0);
+            }
+            std::cout << "ivsytbty";
+            std::cout << color << std::endl;
+
+            std::cout << "X: " << pkt[j].x << "Y: " << pkt[j].y << std::endl;
+
+            if (j>2) {
+                setKind();
+                setColor();
+                setPunkt();
+            }
+
         }
     }
 }

@@ -234,6 +234,87 @@ CMakeFiles/Tetris.dir/Figures.cpp.obj
  D:/Studia/Programowanie Obiektowe/Tetris/Board.h
  D:/Studia/Programowanie Obiektowe/Tetris/Figures.cpp
  D:/Studia/Programowanie Obiektowe/Tetris/Figures.h
+CMakeFiles/Tetris.dir/FiguresController.cpp.obj
+ D:/Pobrane/SFML-2.5.1/include/SFML/Config.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/BlendMode.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/CircleShape.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/Color.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/ConvexShape.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/Drawable.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/Export.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/Font.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/Glsl.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/Glsl.inl
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/Glyph.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/Image.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/PrimitiveType.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/Rect.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/Rect.inl
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/RectangleShape.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/RenderStates.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/RenderTarget.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/RenderTexture.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/RenderWindow.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/Shader.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/Shape.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/Sprite.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/Text.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/Texture.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/Transform.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/Transformable.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/Vertex.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/VertexArray.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/VertexBuffer.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Graphics/View.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/System.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/Clock.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/Err.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/Export.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/FileInputStream.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/InputStream.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/Lock.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/MemoryInputStream.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/Mutex.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/NonCopyable.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/Sleep.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/String.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/String.inl
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/Thread.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/Thread.inl
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/ThreadLocal.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/ThreadLocalPtr.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/ThreadLocalPtr.inl
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/Time.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/Utf.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/Utf.inl
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/Vector2.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/Vector2.inl
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/Vector3.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/System/Vector3.inl
+ D:/Pobrane/SFML-2.5.1/include/SFML/Window.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Window/Clipboard.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Window/Context.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Window/ContextSettings.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Window/Cursor.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Window/Event.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Window/Export.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Window/GlResource.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Window/Joystick.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Window/Keyboard.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Window/Mouse.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Window/Sensor.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Window/Touch.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Window/VideoMode.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Window/Window.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp
+ D:/Pobrane/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
+ D:/Studia/Programowanie Obiektowe/Tetris/Board.h
+ D:/Studia/Programowanie Obiektowe/Tetris/BoardView.h
+ D:/Studia/Programowanie Obiektowe/Tetris/Figures.h
+ D:/Studia/Programowanie Obiektowe/Tetris/FiguresController.cpp
+ D:/Studia/Programowanie Obiektowe/Tetris/FiguresController.h
+ D:/Studia/Programowanie Obiektowe/Tetris/FiguresView.h
 CMakeFiles/Tetris.dir/FiguresView.cpp.obj
  D:/Pobrane/SFML-2.5.1/include/SFML/Config.hpp
  D:/Pobrane/SFML-2.5.1/include/SFML/Graphics.hpp
@@ -388,6 +469,11 @@ CMakeFiles/Tetris.dir/GameManager.cpp.obj
  D:/Pobrane/SFML-2.5.1/include/SFML/Window/Window.hpp
  D:/Pobrane/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp
  D:/Pobrane/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
+ D:/Studia/Programowanie Obiektowe/Tetris/Board.h
+ D:/Studia/Programowanie Obiektowe/Tetris/BoardView.h
+ D:/Studia/Programowanie Obiektowe/Tetris/Figures.h
+ D:/Studia/Programowanie Obiektowe/Tetris/FiguresController.h
+ D:/Studia/Programowanie Obiektowe/Tetris/FiguresView.h
  D:/Studia/Programowanie Obiektowe/Tetris/GameManager.cpp
  D:/Studia/Programowanie Obiektowe/Tetris/GameManager.h
  D:/Studia/Programowanie Obiektowe/Tetris/IntroController.h
@@ -784,5 +870,8 @@ CMakeFiles/Tetris.dir/main.cpp.obj
  D:/Studia/Programowanie Obiektowe/Tetris/Board.h
  D:/Studia/Programowanie Obiektowe/Tetris/BoardView.h
  D:/Studia/Programowanie Obiektowe/Tetris/Figures.h
+ D:/Studia/Programowanie Obiektowe/Tetris/FiguresController.h
  D:/Studia/Programowanie Obiektowe/Tetris/FiguresView.h
+ D:/Studia/Programowanie Obiektowe/Tetris/IntroController.h
+ D:/Studia/Programowanie Obiektowe/Tetris/IntroView.h
  D:/Studia/Programowanie Obiektowe/Tetris/main.cpp

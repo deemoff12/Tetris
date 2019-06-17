@@ -203,6 +203,33 @@ Figures.cpp.s:
 	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/Figures.cpp.s
 .PHONY : Figures.cpp.s
 
+FiguresController.obj: FiguresController.cpp.obj
+
+.PHONY : FiguresController.obj
+
+# target to build an object file
+FiguresController.cpp.obj:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/FiguresController.cpp.obj
+.PHONY : FiguresController.cpp.obj
+
+FiguresController.i: FiguresController.cpp.i
+
+.PHONY : FiguresController.i
+
+# target to preprocess a source file
+FiguresController.cpp.i:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/FiguresController.cpp.i
+.PHONY : FiguresController.cpp.i
+
+FiguresController.s: FiguresController.cpp.s
+
+.PHONY : FiguresController.s
+
+# target to generate assembly for a file
+FiguresController.cpp.s:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/FiguresController.cpp.s
+.PHONY : FiguresController.cpp.s
+
 FiguresView.obj: FiguresView.cpp.obj
 
 .PHONY : FiguresView.obj
@@ -410,6 +437,9 @@ help:
 	@echo ... Figures.obj
 	@echo ... Figures.i
 	@echo ... Figures.s
+	@echo ... FiguresController.obj
+	@echo ... FiguresController.i
+	@echo ... FiguresController.s
 	@echo ... FiguresView.obj
 	@echo ... FiguresView.i
 	@echo ... FiguresView.s

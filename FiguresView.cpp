@@ -3,7 +3,7 @@
 //
 
 #include "FiguresView.h"
-FiguresView::FiguresView(sf::RenderWindow& win, Figures& figure, Board board)
+FiguresView::FiguresView(sf::RenderWindow& win, Figures& figure, Board& board)
         :window(win), figure(figure), board(board)
 {
     figuresView.loadFromFile("images/tiles.png");

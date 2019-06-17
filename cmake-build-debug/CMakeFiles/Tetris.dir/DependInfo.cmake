@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Studia/Programowanie Obiektowe/Tetris/Board.cpp" "D:/Studia/Programowanie Obiektowe/Tetris/cmake-build-debug/CMakeFiles/Tetris.dir/Board.cpp.obj"
   "D:/Studia/Programowanie Obiektowe/Tetris/BoardView.cpp" "D:/Studia/Programowanie Obiektowe/Tetris/cmake-build-debug/CMakeFiles/Tetris.dir/BoardView.cpp.obj"
   "D:/Studia/Programowanie Obiektowe/Tetris/Figures.cpp" "D:/Studia/Programowanie Obiektowe/Tetris/cmake-build-debug/CMakeFiles/Tetris.dir/Figures.cpp.obj"
+  "D:/Studia/Programowanie Obiektowe/Tetris/FiguresController.cpp" "D:/Studia/Programowanie Obiektowe/Tetris/cmake-build-debug/CMakeFiles/Tetris.dir/FiguresController.cpp.obj"
   "D:/Studia/Programowanie Obiektowe/Tetris/FiguresView.cpp" "D:/Studia/Programowanie Obiektowe/Tetris/cmake-build-debug/CMakeFiles/Tetris.dir/FiguresView.cpp.obj"
   "D:/Studia/Programowanie Obiektowe/Tetris/GameManager.cpp" "D:/Studia/Programowanie Obiektowe/Tetris/cmake-build-debug/CMakeFiles/Tetris.dir/GameManager.cpp.obj"
   "D:/Studia/Programowanie Obiektowe/Tetris/IntroController.cpp" "D:/Studia/Programowanie Obiektowe/Tetris/cmake-build-debug/CMakeFiles/Tetris.dir/IntroController.cpp.obj"

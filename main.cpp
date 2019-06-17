@@ -3,18 +3,24 @@
 #include "BoardView.h"
 #include "Figures.h"
 #include "FiguresView.h"
+#include "FiguresController.h"
+#include "IntroView.h"
+#include "IntroController.h"
 int main()
 {
     srand(time(NULL));
     sf::RenderWindow window(sf::VideoMode(320, 480), "Tetris");
-    window.setFramerateLimit(4);
+//    window.setFramerateLimit(4);
     Board board;
     BoardView board_view(window, board);
     Figures figures(board);
     FiguresView figures_view(window, figures, board);
+    FiguresController figures_controller(window, figures, figures_view, board_view);
+    IntroView intro_view(window);
+    IntroController intro_controller(intro_view);
 
+    window.setFramerateLimit(4);
     while (window.isOpen()) {
-
         sf::Event event;
         while (window.pollEvent(event)) {
             if (event.type==sf::Event::KeyPressed) {
@@ -27,9 +33,8 @@ int main()
                 window.close();
             }
         }
-//        figures.step();
-        std::cout << figures.getPunkt(3).x << std::endl;
-//        window.clear(sf::Color::White);
+        figures.step();
+//        std::cout << figures.getPunkt(3).x << std::endl;
         board_view.draw(window);
         figures_view.draw(window);
         window.display();

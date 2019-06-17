@@ -14,9 +14,9 @@ class FiguresView {
     sf::Texture figuresView;
     sf::Sprite sprite;
     Figures& figure;
-    Board board;
+    Board& board;
 public:
-    FiguresView(sf::RenderWindow& win, Figures& figures, Board board);
+    FiguresView(sf::RenderWindow& win, Figures& figures, Board& board);
     void draw(sf::RenderWindow& win);
 };
 

@@ -8,14 +8,14 @@
 #include <SFML/Graphics.hpp>
 class BoardView {
     sf::RenderWindow& window;
-    Board board;
+    Board& board;
     sf::Texture backGround;
     sf::Texture block;
     sf::Sprite spriteBG;
     sf::Sprite sprite;
 
 public:
-    BoardView(sf::RenderWindow& win, Board board);
+    BoardView(sf::RenderWindow& win, Board& board);
     void draw(sf::RenderWindow& win);
 };
 

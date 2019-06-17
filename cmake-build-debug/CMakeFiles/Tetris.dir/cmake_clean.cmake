@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Tetris.dir/IntroView.cpp.obj"
   "CMakeFiles/Tetris.dir/ScoreView.cpp.obj"
   "CMakeFiles/Tetris.dir/ScoreController.cpp.obj"
+  "CMakeFiles/Tetris.dir/FiguresController.cpp.obj"
   "Tetris.pdb"
   "Tetris.exe"
   "Tetris.exe.manifest"
