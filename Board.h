@@ -15,7 +15,7 @@ public:
     Board();
     int getCol() { return col; }
     int getRow() { return row; }
-    int getTab(int i, int j) { return tab[i][j]; }
+    int getTab(int i, int j) { return tab[j][i]; }
     void setFieldsColor(int x, int y, int color) { tab[y][x] = color; }
     void checkLines();
 };

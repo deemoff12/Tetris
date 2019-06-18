@@ -12,7 +12,9 @@
 int main()
 {
     srand(time(NULL));
-    sf::RenderWindow window(sf::VideoMode(320, 480), "Tetris");
+//    sf::RenderWindow window(sf::VideoMode(320, 480), "Tetris");
+    sf::RenderWindow window(sf::VideoMode(700, 480), "Tetris");
+
 //    window.setFramerateLimit(4);
     Board board;
     BoardView board_view(window, board);
@@ -36,7 +38,7 @@ int main()
                 window.close();
             }
         }
-        if (gm.getGameState()==2) figures.step();
+//        if (gm.getGameState()==2) figures.step();
         gm.draw(window);
         window.display();
     }

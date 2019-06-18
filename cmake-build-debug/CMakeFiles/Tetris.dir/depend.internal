@@ -872,6 +872,9 @@ CMakeFiles/Tetris.dir/main.cpp.obj
  D:/Studia/Programowanie Obiektowe/Tetris/Figures.h
  D:/Studia/Programowanie Obiektowe/Tetris/FiguresController.h
  D:/Studia/Programowanie Obiektowe/Tetris/FiguresView.h
+ D:/Studia/Programowanie Obiektowe/Tetris/GameManager.h
  D:/Studia/Programowanie Obiektowe/Tetris/IntroController.h
  D:/Studia/Programowanie Obiektowe/Tetris/IntroView.h
+ D:/Studia/Programowanie Obiektowe/Tetris/ScoreController.h
+ D:/Studia/Programowanie Obiektowe/Tetris/ScoreView.h
  D:/Studia/Programowanie Obiektowe/Tetris/main.cpp

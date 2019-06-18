@@ -871,7 +871,10 @@ CMakeFiles/Tetris.dir/main.cpp.obj: ../BoardView.h
 CMakeFiles/Tetris.dir/main.cpp.obj: ../Figures.h
 CMakeFiles/Tetris.dir/main.cpp.obj: ../FiguresController.h
 CMakeFiles/Tetris.dir/main.cpp.obj: ../FiguresView.h
+CMakeFiles/Tetris.dir/main.cpp.obj: ../GameManager.h
 CMakeFiles/Tetris.dir/main.cpp.obj: ../IntroController.h
 CMakeFiles/Tetris.dir/main.cpp.obj: ../IntroView.h
+CMakeFiles/Tetris.dir/main.cpp.obj: ../ScoreController.h
+CMakeFiles/Tetris.dir/main.cpp.obj: ../ScoreView.h
 CMakeFiles/Tetris.dir/main.cpp.obj: ../main.cpp
 

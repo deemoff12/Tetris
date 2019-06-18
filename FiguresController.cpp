@@ -16,6 +16,7 @@ void FiguresController::handleEvent(sf::Event& event)
         if (event.key.code==sf::Keyboard::Right) figures.move(1);
         if (event.key.code==sf::Keyboard::Up) figures.rotate();
         if (event.key.code==sf::Keyboard::Down) figures.step();
+        if (event.key.code==sf::Keyboard::Numpad0) figures.debug();
     }
 }
 void FiguresController::draw(sf::RenderWindow& win)
