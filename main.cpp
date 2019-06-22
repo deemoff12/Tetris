@@ -12,8 +12,8 @@
 int main()
 {
     srand(time(NULL));
-//    sf::RenderWindow window(sf::VideoMode(320, 480), "Tetris");
-    sf::RenderWindow window(sf::VideoMode(700, 480), "Tetris");
+    sf::RenderWindow window(sf::VideoMode(320, 480), "Tetris");
+//    sf::RenderWindow window(sf::VideoMode(700, 480), "Tetris");
 
 //    window.setFramerateLimit(4);
     Board board;
@@ -27,7 +27,7 @@ int main()
     ScoreController score_controller(score_view, window);
     GameManager gm(intro_controller, figures_controller, score_controller);
 
-    window.setFramerateLimit(4);
+    window.setFramerateLimit(6);
     while (window.isOpen()) {
         sf::Event event;
         while (window.pollEvent(event)) {
@@ -38,7 +38,7 @@ int main()
                 window.close();
             }
         }
-//        if (gm.getGameState()==2) figures.step();
+        if (gm.getGameState()==2) figures.step();
         gm.draw(window);
         window.display();
     }

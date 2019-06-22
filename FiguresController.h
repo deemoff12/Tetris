@@ -8,14 +8,13 @@
 #include "FiguresView.h"
 #include "BoardView.h"
 class FiguresController {
-    bool finished = false;
     Figures& figures;
     sf::RenderWindow& window;
     FiguresView& view;
     BoardView& bView;
 public:
     FiguresController(sf::RenderWindow& win, Figures& fig, FiguresView& view, BoardView& bView);
-    bool isFinished() { return finished; }
+    bool isFinished() { return figures.isFinished(); }
     void handleEvent(sf::Event& event);
     void draw(sf::RenderWindow& win);
 };

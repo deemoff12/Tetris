@@ -11,7 +11,6 @@ FiguresController::FiguresController(sf::RenderWindow& win, Figures& fig, Figure
 void FiguresController::handleEvent(sf::Event& event)
 {
     if (event.type==sf::Event::KeyPressed) {
-        if (event.key.code==sf::Keyboard::Space) finished = true;
         if (event.key.code==sf::Keyboard::Left) figures.move(-1);
         if (event.key.code==sf::Keyboard::Right) figures.move(1);
         if (event.key.code==sf::Keyboard::Up) figures.rotate();

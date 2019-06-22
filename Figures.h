@@ -27,7 +27,6 @@ public:
     bool isFinished() { return finished; }
     void rotate();
     void move(int dir);
-    void fall();
     Punkt getPunkt(int i) { return pkt[i]; }
     void setKind();
     void setColor();
@@ -37,6 +36,7 @@ public:
     void isCollision();
     void step();
     void debug();
+    void getGameState();
 };
 
 #endif //TETRIS_FIGURES_H

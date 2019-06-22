@@ -54,20 +54,7 @@ void Figures::move(int dir)
     }
 
 }
-void Figures::fall()
-{
-    for (int j = 0; j<4; ++j) {
-        tmp[j] = pkt[j];
-    }
-    for (int i = 0; i<4; ++i) {
-        if (pkt[i].y>=board.getRow())
-            pkt[i] = tmp[i];
-        pkt[i].y += 1;
-    }
-    for (int k = 0; k<4; ++k) {
 
-    }
-}
 void Figures::setPunkt()
 {
     for (int i = 0; i<4; ++i) {
@@ -117,7 +104,8 @@ void Figures::step()
         pkt[i].y += 1;
     }
     isCollision();
-//    board.checkLines();
+    board.checkLines();
+    getGameState();
 }
 void Figures::debug()
 {
@@ -129,6 +117,14 @@ void Figures::debug()
         }
     }
     std::cout << "KONIEC FUNKCJI" << std::endl;
+}
+// Warunek kończący gry - Gdy któreś z pól w wierszu o indeksie 3 jest pomalowany kończe grę
+//Jest to warunek wystarczający do stwierdzenia przegranej
+void Figures::getGameState()
+{
+    for (int i = 0; i<board.getCol(); ++i) {
+        if (board.getTab(i, 3)) finished = true;
+    }
 }
 
 
