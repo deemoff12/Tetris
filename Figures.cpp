@@ -12,6 +12,7 @@ Figures::Figures(Board& board)
         }
     }
 }
+//Ideologia obracania zaczerpnieta z filmika poglądowego
 void Figures::rotate()
 {
     Punkt rotate = pkt[1]; // puntk o indeksie 1 odpowiada za centrum rotacji
